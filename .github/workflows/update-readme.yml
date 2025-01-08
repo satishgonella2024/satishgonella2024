@@ -12,19 +12,20 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Setup Node.js Environment
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # Ensure a compatible Node.js version is used
+          node-version: '16' # Ensure compatibility with the script
 
-      - name: Fetch Latest Medium Posts
+      - name: Install Node Dependencies
         run: |
-          # Install dependencies
+          npm init -y
           npm install node-fetch@2
 
-          # Fetch Medium posts and update README
+      - name: Fetch Latest Medium Posts and Update README
+        run: |
           node <<EOF
-          const fetch = require('node-fetch'); // Import fetch for Medium API
+          const fetch = require('node-fetch'); // Import fetch
           const fs = require('fs');
 
           const mediumUsername = "ssatish.gonella"; // Replace with your Medium username
@@ -45,6 +46,7 @@ jobs:
                   const updatedReadme = readmeContent.replace(/## 📚 Recent Articles\\n([\\s\\S]*?)\\n##/m, `## 📚 Recent Articles\\n${articles}\\n##`);
 
                   fs.writeFileSync('README.md', updatedReadme);
+                  console.log("README.md updated successfully!");
               } catch (error) {
                   console.error("Error updating README:", error);
               }
