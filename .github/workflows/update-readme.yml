@@ -1,0 +1,42 @@
+name: Update Recent Articles
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Runs weekly on Sunday at midnight UTC
+  workflow_dispatch: # Allows manual triggering of the workflow
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Latest Medium Posts
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fetch = require('node-fetch');
+            const mediumUsername = "ssatish.gonella"; // Replace with your Medium username
+            const mediumURL = `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${mediumUsername}`;
+            const response = await fetch(mediumURL);
+            const data = await response.json();
+
+            if (!data.items) {
+              console.error("No articles found");
+              return;
+            }
+
+            const articles = data.items.slice(0, 3).map((item) => `- [${item.title}](${item.link})`).join('\\n');
+            const readmeContent = require('fs').readFileSync('README.md', 'utf8');
+            const updatedReadme = readmeContent.replace(/## 📚 Recent Articles\\n([\\s\\S]*?)\\n##/m, `## 📚 Recent Articles\\n${articles}\\n##`);
+
+            require('fs').writeFileSync('README.md', updatedReadme);
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update Recent Articles" || echo "No changes to commit"
+          git push
