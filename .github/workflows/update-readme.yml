@@ -12,26 +12,44 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Fetch Latest Medium Posts
-        uses: actions/github-script@v6
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v3
         with:
-          script: |
-            const fetch = require('node-fetch');
-            const mediumUsername = "ssatish.gonella"; // Replace with your Medium username
-            const mediumURL = `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${mediumUsername}`;
-            const response = await fetch(mediumURL);
-            const data = await response.json();
+          node-version: '16' # Ensure a compatible Node.js version is used
 
-            if (!data.items) {
-              console.error("No articles found");
-              return;
-            }
+      - name: Fetch Latest Medium Posts
+        run: |
+          # Install dependencies
+          npm install node-fetch@2
 
-            const articles = data.items.slice(0, 3).map((item) => `- [${item.title}](${item.link})`).join('\\n');
-            const readmeContent = require('fs').readFileSync('README.md', 'utf8');
-            const updatedReadme = readmeContent.replace(/## 📚 Recent Articles\\n([\\s\\S]*?)\\n##/m, `## 📚 Recent Articles\\n${articles}\\n##`);
+          # Fetch Medium posts and update README
+          node <<EOF
+          const fetch = require('node-fetch'); // Import fetch for Medium API
+          const fs = require('fs');
 
-            require('fs').writeFileSync('README.md', updatedReadme);
+          const mediumUsername = "ssatish.gonella"; // Replace with your Medium username
+          const mediumURL = \`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@\${mediumUsername}\`;
+
+          (async () => {
+              try {
+                  const response = await fetch(mediumURL);
+                  const data = await response.json();
+
+                  if (!data.items) {
+                      console.error("No articles found");
+                      return;
+                  }
+
+                  const articles = data.items.slice(0, 3).map((item) => `- [${item.title}](${item.link})`).join('\\n');
+                  const readmeContent = fs.readFileSync('README.md', 'utf8');
+                  const updatedReadme = readmeContent.replace(/## 📚 Recent Articles\\n([\\s\\S]*?)\\n##/m, `## 📚 Recent Articles\\n${articles}\\n##`);
+
+                  fs.writeFileSync('README.md', updatedReadme);
+              } catch (error) {
+                  console.error("Error updating README:", error);
+              }
+          })();
+          EOF
 
       - name: Commit and Push Changes
         run: |
