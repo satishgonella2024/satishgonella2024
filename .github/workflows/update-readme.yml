@@ -15,14 +15,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # Ensure compatibility with the script
+          node-version: '16'
 
-      - name: Install Node Dependencies
+      - name: Install Dependencies
         run: |
           npm init -y
           npm install node-fetch@2
 
-      - name: Fetch Latest Medium Posts and Update README
+      - name: Fetch Medium Posts and Update README
         run: |
           node <<EOF
           const fetch = require('node-fetch'); // Import fetch
@@ -33,22 +33,26 @@ jobs:
 
           (async () => {
               try {
+                  console.log("Fetching Medium posts...");
                   const response = await fetch(mediumURL);
                   const data = await response.json();
 
-                  if (!data.items) {
-                      console.error("No articles found");
+                  if (!data.items || data.items.length === 0) {
+                      console.error("No articles found in Medium feed.");
                       return;
                   }
 
                   const articles = data.items.slice(0, 3).map((item) => `- [${item.title}](${item.link})`).join('\\n');
+                  console.log("Articles fetched successfully:", articles);
+
                   const readmeContent = fs.readFileSync('README.md', 'utf8');
                   const updatedReadme = readmeContent.replace(/## 📚 Recent Articles\\n([\\s\\S]*?)\\n##/m, `## 📚 Recent Articles\\n${articles}\\n##`);
 
                   fs.writeFileSync('README.md', updatedReadme);
-                  console.log("README.md updated successfully!");
+                  console.log("README.md updated successfully.");
               } catch (error) {
-                  console.error("Error updating README:", error);
+                  console.error("Error occurred:", error);
+                  process.exit(1); // Exit with error
               }
           })();
           EOF
