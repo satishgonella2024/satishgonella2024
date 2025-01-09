@@ -91,7 +91,7 @@ Below are some standout projects showcasing my expertise in AWS/Azure, IaC, and 
 
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=satishgonella2024&show_icons=true&theme=radical&count_private=true"
+    src="https://github-readme-stats.vercel.app/api?username=satishgonella2024&show_icons=true&theme=radical&count_private=true&hide_rank=true"
     alt="Subrahmanya Gonella's GitHub Stats"
     style="max-width: 100%; margin: 0 5px;"
   />
