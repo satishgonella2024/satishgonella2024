@@ -2,7 +2,7 @@ name: Update Recent Articles
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Runs weekly on Sunday at midnight UTC
+    - cron: "0 0 * * 0" # Runs weekly on Sunday at midnight UTC
   workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
@@ -15,17 +15,17 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: "16"
 
       - name: Install Dependencies
         run: |
           npm init -y
-          npm install node-fetch@2
+          npm install node-fetch@2.6.1
 
       - name: Fetch Medium Posts and Update README
         run: |
           node <<EOF
-          const fetch = require('node-fetch'); // Import fetch
+          const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args)); // Import fetch
           const fs = require('fs');
 
           const mediumUsername = "ssatish.gonella"; // Replace with your Medium username
