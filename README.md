@@ -20,9 +20,11 @@ Stay updated with my latest technical insights on Medium! 🚀
 
 Explore some of my most exciting projects designed to solve real-world challenges:
 
-- 🚀 [DevOps AI Assistant](https://github.com/satishgonella2024/devops-ai-assistant): An AI-powered assistant for automating cloud and DevOps tasks.
-- 🌐 [Terraform WordPress Deployment](https://github.com/satishgonella2024/terraform-wordpress-alpha): Deploy a highly available WordPress architecture using Terraform.
-- 🧰 [Kubernetes PVC Misconfig Demo](https://github.com/satishgonella2024/k8s-pvc-misconfig-demo): Demonstrates troubleshooting PVC misconfigurations in Kubernetes.
+- 🚀 [AI Stock Advisor](https://github.com/satishgonella2024/ai-stock-advisor): Real-time stock analysis and insights using large language models. [oai_citation_attribution:4‡GitHub](https://github.com/satishgonella2024/ai-stock-advisor?utm_source=chatgpt.com)
+- 🛠️ [GitHub API File Manager](https://github.com/satishgonella2024/github-api-file-manager): Python-based tool for managing GitHub repository files via the GitHub REST API. [oai_citation_attribution:3‡GitHub](https://github.com/satishgonella2024/github-api-file-manager?utm_source=chatgpt.com)
+- 🌐 [Azure IaC Samples](https://github.com/satishgonella2024/Azure-IaC-Samples): Infrastructure as Code examples for provisioning Azure resources using Terraform and Bicep. [oai_citation_attribution:2‡GitHub](https://github.com/satishgonella2024/Azure-IaC-Samples?utm_source=chatgpt.com)
+- 🧩 [Node.js Sample App](https://github.com/satishgonella2024/nodes-Sample-App): A Node.js application demonstrating modern DevOps workflows with CI/CD pipelines. [oai_citation_attribution:1‡GitHub](https://github.com/satishgonella2024/nodes-Sample-App?utm_source=chatgpt.com)
+- 🏗️ [Terraform Infrastructure Pipeline](https://github.com/satishgonella2024/terra-infra-creation): Automated provisioning of scalable infrastructure for deploying a WordPress application on AWS. [oai_citation_attribution:0‡GitHub](https://github.com/satishgonella2024/terra-infra-creation?utm_source=chatgpt.com)
 
 ---
 
@@ -40,8 +42,8 @@ Explore some of my most exciting projects designed to solve real-world challenge
 
 I'm always open to collaborations and discussions. Feel free to reach out to me:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/satishgonella)  
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@ssatish.gonella)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/satishgonella) 
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@ssatish.gonella) 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/satishgonella2024)
 
 ---
