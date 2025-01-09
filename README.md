@@ -32,7 +32,6 @@ Explore some of my most exciting projects designed to solve real-world challenge
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=satishgonella2024&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=satishgonella2024&theme=radical" alt="GitHub Streak" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=satishgonella2024&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
