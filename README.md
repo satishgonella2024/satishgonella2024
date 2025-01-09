@@ -1,6 +1,6 @@
 # Subrahmanya Gonella
 
-Hi there! 👋 I'm an accomplished **Cloud and DevOps Architect** with deep technical expertise in automating CI/CD pipelines and building enterprise-grade cloud solutions. Passionate about **Kubernetes**, **Terraform**, **Jenkins**, and **cloud-native** technologies.
+Hi there! 👋 I'm an accomplished **Cloud and DevOps Architect** with deep technical expertise in automating CI/CD pipelines and building enterprise-grade cloud solutions. Passionate about **Kubernetes**, **Terraform**, **Jenkins**, and **Cloud-Native** technologies.
 
 ---
 
@@ -28,9 +28,9 @@ Explore some of my most exciting projects designed to solve real-world challenge
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=satishgonella2024&show_icons=true&theme=radical&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=satishgonella2024&show_icons=true&theme=radical&count_private=true&hide_rank=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=satishgonella2024&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=satishgonella2024&layout=compact&theme=radical)
-
 ---
 
 ## 🤝 Let's Connect!
