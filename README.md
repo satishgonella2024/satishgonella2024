@@ -1,6 +1,6 @@
 # Subrahmanya Gonella
 
-Hi there! 👋 I'm an accomplished **Cloud and DevOps Architect** with deep technical expertise in automating CI/CD pipelines and building enterprise-grade cloud solutions. Passionate about **Kubernetes**, **Terraform**, **Jenkins**, and **Cloud-Native** technologies.
+Hi there! 👋 I'm an accomplished **Cloud and DevOps Architect** with deep technical expertise in automating CI/CD pipelines and building enterprise-grade cloud solutions. Passionate about **Kubernetes**, **Terraform**, **Jenkins**, and **cloud-native** technologies.
 
 ---
 
@@ -31,18 +31,19 @@ Explore some of my most exciting projects designed to solve real-world challenge
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=satishgonella2024&show_icons=true&theme=radical&count_private=true&hide_rank=true)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=satishgonella2024&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=satishgonella2024&layout=compact&theme=radical)
+
 ---
 
 ## 🤝 Let's Connect!
 
 I'm always open to collaborations and discussions. Feel free to reach out to me:
 
-- [LinkedIn](https://linkedin.com/in/satishgonella)
-- [Medium](https://medium.com/@ssatish.gonella)
-- [GitHub](https://github.com/satishgonella2024)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/satishgonella) 
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@ssatish.gonella) 
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/satishgonella2024)
 
 ---
 
 ### 💡 Looking for Collaboration?
 
-If you're looking for someone to collaborate on **Kubernetes**, **cloud-native**, or **DevOps** projects, let's connect and build something amazing together!
+🌟 **Are you working on exciting DevOps or cloud-native projects? Let’s connect and create something amazing! Reach out via [LinkedIn](https://linkedin.com/in/satishgonella) or [Medium](https://medium.com/@ssatish.gonella).**
