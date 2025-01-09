@@ -2,12 +2,13 @@ name: Update Recent Articles
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Runs weekly on Sunday at midnight UTC
-  workflow_dispatch: # Allows manual triggering of the workflow
+    - cron: '0 0 * * 0'    # Runs weekly on Sunday at midnight UTC
+  workflow_dispatch:       # Allows manual triggering of the workflow
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -24,8 +25,8 @@ jobs:
 
       - name: Fetch Medium Posts and Update README
         run: |
-          node << 'EOF'
-          const fetch = require('node-fetch'); // Import fetch
+          node <<EOF
+          const fetch = require('node-fetch');
           const fs = require('fs');
 
           const mediumUsername = "ssatish.gonella"; // Replace with your Medium username
@@ -43,14 +44,19 @@ jobs:
                   }
 
                   // Fetch and format the latest 3 articles
-                  const articles = data.items.slice(0, 3).map(item => {
-                      return `- [${item.title}](${item.link})`;
-                  }).join('\\n');
+                  const articles = data.items
+                      .slice(0, 3)
+                      .map(item => `- [${item.title}](${item.link})`)
+                      .join('\n');
+
                   console.log("Articles fetched successfully:\n", articles);
 
                   // Update the README file
                   const readmeContent = fs.readFileSync('README.md', 'utf8');
-                  const updatedReadme = readmeContent.replace(/## 📚 Recent Articles\\n([\\s\\S]*?)\\n##/m, `## 📚 Recent Articles\\n${articles}\\n##`);
+                  const updatedReadme = readmeContent.replace(
+                      /## 📚 Recent Articles\n([\s\S]*?)\n##/m,
+                      `## 📚 Recent Articles\n${articles}\n##`
+                  );
 
                   fs.writeFileSync('README.md', updatedReadme);
                   console.log("README.md updated successfully.");
