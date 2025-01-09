@@ -1,36 +1,48 @@
-# 👋 Hello, I'm Subrahmanya Satish Gonella!
+# Subrahmanya Gonella
 
-## 🚀 About Me
-Hi! I'm an accomplished Cloud and DevOps Architect with deep technical expertise in cloud technologies, CI/CD automation, and enterprise-grade solutions. I specialize in building scalable, resilient, and efficient infrastructure using modern tools and platforms.
+Hi there! 👋 I'm an accomplished **Cloud and DevOps Architect** with deep technical expertise in automating CI/CD pipelines and building enterprise-grade cloud solutions. Passionate about **Kubernetes**, **Terraform**, **Jenkins**, and **cloud-native** technologies.
 
-### **Certifications**
-- AWS Architect
-- Azure Certified
-- Kubernetes Certified
-- Terraform Certified
-
-## 🛠 Skills & Tools
-- **Languages:** Python, Java, Bash
-- **Cloud:** AWS, Azure, GCP
-- **DevOps:** Jenkins, Ansible, Terraform, Kubernetes, Docker
-- **Observability:** Prometheus, Grafana
-- **Storage & Backup:** TrueNAS, ZFS
+---
 
 ## 📚 Recent Articles
-- [Mastering Kubernetes Multi-Cluster Deployments](https://medium.com/@ssatish.gonella/mastering-multi-cluster-kubernetes)
-- [The Great Migration to Azure](https://medium.com/the-great-migration-series-a-journey-to-azure)
-- [Homelab Odyssey: Building a Kubernetes Cluster on Proxmox](https://medium.com/homelab-odyssey/homelab-odyssey-building-a-kubernetes-cluster-on-proxmox-424b1501d270)
 
-## 🌟 Featured Projects
-- [🚀 **DevOps AI Assistant**](https://github.com/satishgonella2024/devops-ai-assistant): An AI-powered assistant for automating cloud and DevOps tasks.
-- [📦 **Terraform WordPress Deployment**](https://github.com/satishgonella2024/terra-wordpress): Deploy a highly available WordPress architecture using Terraform.
-- [🎛️ **Kubernetes PVC Misconfig Demo**](https://github.com/satishgonella2024/k8s-pvc-misconfig-demo): Demonstrates PVC misconfigurations in Kubernetes.
+Stay updated with my latest technical insights on Medium! 🚀
 
-## 📈 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=satishgonella2024&show_icons=true&theme=radical)
+- 🌟 [Mastering Kubernetes Multi-Cluster Deployments](https://medium.com/@ssatish.gonella/mastering-kubernetes-multi-cluster-deployments)
+- 💡 [The Great Migration to Azure](https://medium.com/@ssatish.gonella/the-great-migration-to-azure)
+- 📖 [Homelab Odyssey: Building a Kubernetes Cluster on Proxmox](https://medium.com/@ssatish.gonella/homelab-odyssey-building-a-kubernetes-cluster-on-proxmox)
+
+> ✨ Want to read more? Check out all my articles on [Medium](https://medium.com/@ssatish.gonella).
+
+---
+
+## 🔥 Featured Projects
+
+Explore some of my most exciting projects designed to solve real-world challenges.
+
+- 🚀 [DevOps AI Assistant](https://github.com/satishgonella2024/devops-ai-assistant): An AI-powered assistant for automating cloud and DevOps tasks.
+- 🌐 [Terraform WordPress Deployment](https://github.com/satishgonella2024/terraform-wordpress-alpha): Deploy a highly available WordPress architecture using Terraform.
+- 🧰 [Kubernetes PVC Misconfig Demo](https://github.com/satishgonella2024/k8s-pvc-misconfig-demo): Demonstrates troubleshooting PVC misconfigurations in Kubernetes.
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=satishgonella2024&show_icons=true&theme=radical&count_private=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=satishgonella2024&layout=compact&theme=radical)
 
-## 📬 Let's Connect!
+---
+
+## 🤝 Let's Connect!
+
+I'm always open to collaborations and discussions. Feel free to reach out to me:
+
 - [LinkedIn](https://linkedin.com/in/satishgonella)
 - [Medium](https://medium.com/@ssatish.gonella)
 - [GitHub](https://github.com/satishgonella2024)
+
+---
+
+### 💡 Looking for Collaboration?
+
+If you're looking for someone to collaborate on **Kubernetes**, **cloud-native**, or **DevOps** projects, let's connect and build something amazing together!
