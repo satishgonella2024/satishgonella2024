@@ -42,9 +42,11 @@ jobs:
                       return;
                   }
 
+                  // Fetch and format the latest 3 articles
                   const articles = data.items.slice(0, 3).map((item) => `- [${item.title}](${item.link})`).join('\\n');
-                  console.log("Articles fetched successfully:", articles);
+                  console.log("Articles fetched successfully:\n", articles);
 
+                  // Update the README file
                   const readmeContent = fs.readFileSync('README.md', 'utf8');
                   const updatedReadme = readmeContent.replace(/## 📚 Recent Articles\\n([\\s\\S]*?)\\n##/m, `## 📚 Recent Articles\\n${articles}\\n##`);
 
