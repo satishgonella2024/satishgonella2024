@@ -40,8 +40,8 @@ Explore some of my most exciting projects designed to solve real-world challenge
 
 I'm always open to collaborations and discussions. Feel free to reach out to me:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/satishgonella) 
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@ssatish.gonella) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/satishgonella)  
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@ssatish.gonella)  
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/satishgonella2024)
 
 ---
@@ -49,25 +49,3 @@ I'm always open to collaborations and discussions. Feel free to reach out to me:
 ### 💡 Looking for Collaboration?
 
 🌟 **Are you working on exciting DevOps or cloud-native projects? Let’s connect and create something amazing! Reach out via [LinkedIn](https://linkedin.com/in/satishgonella) or [Medium](https://medium.com/@ssatish.gonella).**
-
----
-
-## ✨ Fun Stats and Extras
-
-- 🏆 Total Stars Earned: **0**
-- 🕒 Total Commits (2025): **260**
-- 🔄 Total PRs: **1**
-- 🛠️ Total Issues: **0**
-- 🚀 Contributed to (last year): **0**
-
----
-
-### 🚀 Contribution Graph
-
-[![Contribution Graph](https://activity-graph.herokuapp.com/graph?username=satishgonella2024&theme=radical&hide_border=true)](https://github.com/satishgonella2024)
-
----
-
-## ✨ Fun Dev Quote
-
-_"Any sufficiently advanced technology is indistinguishable from magic."_ — Arthur C. Clarke
