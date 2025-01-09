@@ -39,7 +39,6 @@ I thrive on **leading end-to-end cloud transformation projects**, automating dep
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5.svg?style=for-the-badge&logo=Kubernetes&logoColor=white)](https://kubernetes.io/)
 [![Terraform](https://img.shields.io/badge/Terraform-844FBA.svg?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)](https://www.ansible.com/)
-[![Chef](https://img.shields.io/badge/Chef-EC6231.svg?style=for-the-badge&logo=chef&logoColor=white)](https://www.chef.io/)
 
 </div>
 
