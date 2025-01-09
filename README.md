@@ -8,9 +8,11 @@
 
 </div>
 
+<br />
+
 ## 👋 About Me
 
-I'm an accomplished **Cloud and DevOps Architect** with deep expertise in **infrastructure automation**, **Kubernetes**, **Terraform**, **Jenkins**, and **cloud-native** technologies. My focus is on designing **scalable, reliable infrastructures** and automating CI/CD pipelines for **enterprise-grade** cloud solutions.
+I’m a **Cloud and DevOps Architect** passionate about **infrastructure automation**, **Kubernetes**, **Terraform**, **Jenkins**, and **cloud-native** technologies. My focus is on designing **scalable, reliable** infrastructures, automating CI/CD pipelines, and integrating best practices for **enterprise-grade** cloud solutions.
 
 <div align="center">
   
@@ -22,13 +24,13 @@ I'm an accomplished **Cloud and DevOps Architect** with deep expertise in **infr
 
 </div>
 
-I thrive on exploring cutting-edge tools and best practices to streamline development and operations, whether it’s multi-cluster Kubernetes deployments or robust IaC pipelines.
+I’m always exploring new tools, techniques, and frameworks to improve **developer velocity**, reduce costs, and deliver highly resilient platforms—whether it’s building multi-cluster Kubernetes setups or crafting Terraform pipelines for complex infrastructures.
 
 ---
 
 ## 🏅 Certifications
 
-Here are some of the certifications I’ve earned to validate my cloud and DevOps expertise:
+Here are some of my **industry-recognized** certifications:
 
 - [![Azure Architect Expert](https://img.shields.io/badge/Microsoft%20Certified-Azure%20Solutions%20Architect%20Expert-0078D4?style=flat&logo=microsoft-azure&logoColor=white)](https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect/)
 - [![AWS Certified SA - Pro](https://img.shields.io/badge/AWS%20Certified-Solutions%20Architect%20Professional-FF9900?style=flat&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/certified-solutions-architect-professional/)
@@ -39,31 +41,31 @@ Here are some of the certifications I’ve earned to validate my cloud and DevOp
 
 ## 📚 Recent Articles
 
-Check out my latest technical insights on **Medium**! 🚀
+If you enjoy reading in-depth cloud and DevOps guides, check out my latest **Medium** posts:
 
-- 🌟 [Mastering Kubernetes Multi-Cluster Deployments](https://medium.com/@ssatish.gonella/mastering-kubernetes-multi-cluster-deployments)
-- 💡 [The Great Migration to Azure](https://medium.com/@ssatish.gonella/the-great-migration-to-azure)
+- 🌟 [Mastering Kubernetes Multi-Cluster Deployments](https://medium.com/@ssatish.gonella/mastering-kubernetes-multi-cluster-deployments)  
+- 💡 [The Great Migration to Azure](https://medium.com/@ssatish.gonella/the-great-migration-to-azure)  
 - 📖 [Homelab Odyssey: Building a Kubernetes Cluster on Proxmox](https://medium.com/@ssatish.gonella/homelab-odyssey-building-a-kubernetes-cluster-on-proxmox)
 
-✨ Want more? Explore all my articles on [Medium](https://medium.com/@ssatish.gonella).
+Want more? Visit all my articles on [Medium](https://medium.com/@ssatish.gonella).
 
 ---
 
 ## 🔥 Featured Projects
 
-Below are some of my most exciting and impactful projects, each showcasing a different slice of my DevOps and cloud expertise:
+Here’s a selection of my most exciting DevOps and cloud projects:
 
 1. **AI Stock Advisor** – [Repo](https://github.com/satishgonella2024/ai-stock-advisor)  
-   Real-time stock analysis and insights using large language models.
+   Real-time stock analysis & insights powered by large language models.
 
 2. **GitHub API File Manager** – [Repo](https://github.com/satishgonella2024/github-api-file-manager)  
-   Python-based tool for managing GitHub repository files via the GitHub REST API.
+   Python tool to streamline file management in GitHub repos using the REST API.
 
 3. **Azure IaC Samples** – [Repo](https://github.com/satishgonella2024/Azure-IaC-Samples)  
-   Examples illustrating best practices for provisioning Azure resources with Terraform and Bicep.
+   Best-practice examples for provisioning Azure resources with Terraform & Bicep.
 
 4. **Node.js Sample App** – [Repo](https://github.com/satishgonella2024/nodes-Sample-App)  
-   Node.js application demonstrating modern DevOps workflows with CI/CD pipelines.
+   Demo Node.js app featuring modern DevOps workflows & CI/CD pipelines.
 
 5. **Terraform Infrastructure Pipeline** – [Repo](https://github.com/satishgonella2024/terra-infra-creation)  
    Automated provisioning of scalable infrastructure for WordPress on AWS.
@@ -76,12 +78,12 @@ Below are some of my most exciting and impactful projects, each showcasing a dif
   <img
     src="https://github-readme-stats.vercel.app/api?username=satishgonella2024&show_icons=true&theme=radical&count_private=true"
     alt="Subrahmanya Gonella's GitHub Stats"
-    style="max-width: 100%;"
+    style="max-width: 100%; margin: 0 5px;"
   />
   <img
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=satishgonella2024&layout=compact&theme=radical"
     alt="Top Languages Used"
-    style="max-width: 100%;"
+    style="max-width: 100%; margin: 0 5px;"
   />
 </div>
 
@@ -89,7 +91,7 @@ Below are some of my most exciting and impactful projects, each showcasing a dif
 
 ## 🤝 Let's Connect!
 
-I'm always open to collaborations, discussions, and new opportunities. Feel free to reach out to me:
+I’m always open to collaborations, discussions, and new opportunities. Feel free to reach out:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/satishgonella)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@ssatish.gonella)
@@ -99,11 +101,10 @@ I'm always open to collaborations, discussions, and new opportunities. Feel free
 
 ### 💡 Looking for Collaboration?
 
-Are you working on an exciting **DevOps**, **cloud-native**, or **automation** project?  
-Let’s connect to share ideas or collaborate!
+Are you tackling a **DevOps**, **cloud-native**, or **automation** project?  
+Let’s team up, brainstorm solutions, and bring your vision to life!
 
-Reach out via:
-- **[LinkedIn](https://linkedin.com/in/satishgonella)**
+- **[LinkedIn](https://linkedin.com/in/satishgonella)**  
 - **[Medium](https://medium.com/@ssatish.gonella)**
 
-Let's build something awesome together! 🚀
+**Let’s build something remarkable together!** 🚀
