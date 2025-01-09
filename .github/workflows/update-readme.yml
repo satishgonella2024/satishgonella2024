@@ -47,7 +47,7 @@ jobs:
                   const articles = data.items
                       .slice(0, 3)
                       .map(item => `- [${item.title}](${item.link})`)
-                      .join('\\n'); // Escape newlines for YAML compatibility
+                      .join('\\n');
 
                   console.log("Articles fetched successfully:\n", articles);
 
@@ -69,8 +69,11 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
+          echo "node_modules/" >> .gitignore
+          echo "package.json" >> .gitignore
+          echo "package-lock.json" >> .gitignore
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          git add README.md
+          git add README.md .gitignore
           git commit -m "Update Recent Articles" || echo "No changes to commit"
           git push
