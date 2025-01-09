@@ -24,12 +24,12 @@ jobs:
 
       - name: Fetch Medium Posts and Update README
         run: |
-          node <<EOF
+          node << 'EOF'
           const fetch = require('node-fetch'); // Import fetch
           const fs = require('fs');
 
           const mediumUsername = "ssatish.gonella"; // Replace with your Medium username
-          const mediumURL = \`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@\${mediumUsername}\`;
+          const mediumURL = `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${mediumUsername}`;
 
           (async () => {
               try {
@@ -43,7 +43,7 @@ jobs:
                   }
 
                   // Fetch and format the latest 3 articles
-                  const articles = data.items.slice(0, 3).map((item) => {
+                  const articles = data.items.slice(0, 3).map(item => {
                       return `- [${item.title}](${item.link})`;
                   }).join('\\n');
                   console.log("Articles fetched successfully:\n", articles);
