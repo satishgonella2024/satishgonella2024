@@ -46,33 +46,16 @@ jobs:
                   // Fetch and format the latest 3 articles
                   const articles = data.items
                       .slice(0, 3)
-                      .map((item, index) => {
-                          const emoji = index === 0 ? "🌟" : index === 1 ? "💡" : "📖";
-                          return `
-  <tr>
-    <td><b>${emoji} ${index === 0 ? "Latest Article" : index === 1 ? "Second Article" : "Third Article"}:</b></td>
-    <td><a href="${item.link}"><b>${item.title}</b></a><br>
-    ${item.description?.substring(0, 120) || "No description available"}...</td>
-  </tr>`;
-                      })
-                      .join('');
+                      .map(item => `- [${item.title}](${item.link})`)
+                      .join('\\n');
 
-                  const table = `
-<table>${articles}</table>
-
----
-
-> ✨ Want to dive deeper into cloud and DevOps? Follow me on [Medium](https://medium.com/@${mediumUsername})!  
-> Stay connected for the latest insights into DevOps, Kubernetes, CI/CD, and cloud-native technologies. 🚀
-`;
-
-                  console.log("Articles formatted successfully:\n", table);
+                  console.log("Articles fetched successfully:\n", articles);
 
                   // Update the README file
                   const readmeContent = fs.readFileSync('README.md', 'utf8');
                   const updatedReadme = readmeContent.replace(
-                      /## 📚 Recent Articles\n([\s\S]*?)\n##/m,
-                      `## 📚 Recent Articles\n${table}\n##`
+                      /## 📚 Recent Articles\\n([\\s\\S]*?)\\n##/m,
+                      `## 📚 Recent Articles\\n${articles}\\n##`
                   );
 
                   fs.writeFileSync('README.md', updatedReadme);
