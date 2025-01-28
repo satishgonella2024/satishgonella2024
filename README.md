@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/satishgonella)
+[![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/satishsubrahmanya)
 [![Medium](https://img.shields.io/badge/-Articles-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ssatish.gonella)
 [![GitHub](https://img.shields.io/badge/-Projects-lightgrey?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/satishgonella2024)
 
