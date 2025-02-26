@@ -12,7 +12,7 @@
 
 ## 👋 About Me
 
-I’m an **Accomplished Cloud & DevOps Architect** with years of experience **specializing in AWS and Azure** platforms. I focus on:
+I’m an **Accomplished Cloud & DevOps Architect** with multiple years of experience **specializing in AWS and Azure** platforms. I focus on:
 
 - **Infrastructure as Code (IaC)** with Terraform, CloudFormation, and Ansible  
 - **Container Orchestration** (Kubernetes, Docker, EKS, OpenShift)  
