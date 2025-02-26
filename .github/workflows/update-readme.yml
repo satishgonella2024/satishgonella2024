@@ -2,78 +2,94 @@ name: Update Recent Articles
 
 on:
   schedule:
-    - cron: '0 0 * * 0'    # Runs weekly on Sunday at midnight UTC
-  workflow_dispatch:       # Allows manual triggering of the workflow
+    - cron: '0 0 * * 0' # Runs weekly on Sunday at midnight UTC
+  workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-
+        
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'
-
+          
       - name: Install Dependencies
         run: |
           npm init -y
           npm install node-fetch@2
-
+          
       - name: Fetch Medium Posts and Update README
         run: |
           node <<'EOF'
           const fetch = require('node-fetch');
           const fs = require('fs');
-
+          
           const mediumUsername = "ssatish.gonella"; // Replace with your Medium username
           const mediumURL = `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${mediumUsername}`;
-
+          
           (async () => {
-              try {
-                  console.log("Fetching Medium posts...");
-                  const response = await fetch(mediumURL);
-                  const data = await response.json();
-
-                  if (!data.items || data.items.length === 0) {
-                      console.error("No articles found in Medium feed.");
-                      return;
-                  }
-
-                  // Fetch and format the latest 3 articles
-                  const articles = data.items
-                      .slice(0, 3)
-                      .map(item => `- [${item.title}](${item.link})`)
-                      .join('\\n');
-
-                  console.log("Articles fetched successfully:\n", articles);
-
-                  // Update the README file
-                  const readmeContent = fs.readFileSync('README.md', 'utf8');
-                  const updatedReadme = readmeContent.replace(
-                      /## 📚 Recent Articles\\n([\\s\\S]*?)\\n##/m,
-                      `## 📚 Recent Articles\\n${articles}\\n##`
-                  );
-
-                  fs.writeFileSync('README.md', updatedReadme);
-                  console.log("README.md updated successfully.");
-              } catch (error) {
-                  console.error("Error occurred:", error);
-                  process.exit(1); // Exit with error
+            try {
+              console.log("Fetching Medium posts...");
+              const response = await fetch(mediumURL);
+              const data = await response.json();
+              
+              if (!data.items || data.items.length === 0) {
+                console.error("No articles found in Medium feed.");
+                return;
               }
+              
+              // Fetch and format the latest 3 articles
+              const articles = data.items
+                .slice(0, 3)
+                .map(item => `- [${item.title}](${item.link})`)
+                .join('\n');
+                
+              console.log("Articles fetched successfully:\n", articles);
+              
+              // Read README.md content
+              let readmeContent;
+              try {
+                readmeContent = fs.readFileSync('README.md', 'utf8');
+              } catch (error) {
+                console.log("README.md doesn't exist. Creating a new one.");
+                readmeContent = '# My GitHub Profile\n\n';
+              }
+              
+              // Check if Recent Articles section exists
+              const sectionRegex = /## 📚 Recent Articles\s*\n[\s\S]*?(?=\n##|$)/;
+              const articleSection = `## 📚 Recent Articles\n${articles}\n`;
+              
+              let updatedReadme;
+              if (sectionRegex.test(readmeContent)) {
+                // Replace existing section
+                updatedReadme = readmeContent.replace(sectionRegex, articleSection);
+              } else {
+                // Add new section at the end
+                updatedReadme = readmeContent + '\n' + articleSection;
+              }
+              
+              fs.writeFileSync('README.md', updatedReadme);
+              console.log("README.md updated successfully.");
+              
+            } catch (error) {
+              console.error("Error occurred:", error);
+              process.exit(1); // Exit with error
+            }
           })();
           EOF
-
+          
       - name: Commit and Push Changes
         run: |
           echo "node_modules/" >> .gitignore
           echo "package.json" >> .gitignore
           echo "package-lock.json" >> .gitignore
+          
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add README.md .gitignore
-          git commit -m "Update Recent Articles" || echo "No changes to commit"
+          git diff --staged --quiet || git commit -m "Update Recent Articles"
           git push
