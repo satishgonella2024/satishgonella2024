@@ -27,7 +27,6 @@ I thrive on **leading end-to-end cloud transformation projects**, automating dep
 * AWS Certified Solutions Architect - Professional
 * AWS Certified DevOps Engineer - Professional
 * Microsoft Certified: Azure Solutions Architect Expert
-* Certified Kubernetes Administrator (CKA)
 * HashiCorp Certified: Terraform Associate
 * **Master's in Computer Science** (Andhra University, India)
 
