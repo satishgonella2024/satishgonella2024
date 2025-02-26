@@ -55,16 +55,9 @@ I thrive on **leading end-to-end cloud transformation projects**, automating dep
 ---
 
 ## 📚 Recent Articles
-
-Check out my in-depth guides on **Medium**:
-
-- 🌟 [Mastering Kubernetes Multi-Cluster Deployments](https://medium.com/@ssatish.gonella/mastering-kubernetes-multi-cluster-deployments)  
-- 💡 [The Great Migration to Azure](https://medium.com/@ssatish.gonella/the-great-migration-to-azure)  
-- 📖 [Homelab Odyssey: Building a Kubernetes Cluster on Proxmox](https://medium.com/@ssatish.gonella/homelab-odyssey-building-a-kubernetes-cluster-on-proxmox)
-
-For more content, visit my [Medium profile](https://medium.com/@ssatish.gonella).
-
----
+- [Mastering AWS Lambda for DevOps: Automate, Optimize, and Scale Like a Pro](https://medium.com/@ssatish.gonella/mastering-aws-lambda-for-devops-automate-optimize-and-scale-like-a-pro-55f00c91df44?source=rss-2065136b84d0------2)
+- [The AWS RDS Cost Optimization Chronicles: How We Slashed Our Database Bill by 65%](https://medium.com/@ssatish.gonella/the-aws-rds-cost-optimization-chronicles-how-we-slashed-our-database-bill-by-65-21d35fed8562?source=rss-2065136b84d0------2)
+- [Building a Highly Available WordPress Architecture on AWS: From VPC to Auto Scaling](https://medium.com/@ssatish.gonella/building-a-highly-available-wordpress-architecture-on-aws-from-vpc-to-auto-scaling-337b1a87b24f?source=rss-2065136b84d0------2)
 
 ## 🔥 Featured Projects
 
