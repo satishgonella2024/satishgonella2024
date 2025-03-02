@@ -31,9 +31,9 @@ I thrive on **leading end-to-end cloud transformation projects**, automating dep
 * **Master's in Computer Science** (Andhra University, India)
 
 ## 📚 Recent Articles
+- [From Shared Hosting to Kubernetes: My Journey Containerizing WordPress for the Enterprise](https://medium.com/@ssatish.gonella/from-shared-hosting-to-kubernetes-my-journey-containerizing-wordpress-for-the-enterprise-52b3dfe6ece1?source=rss-2065136b84d0------2)
 - [Mastering AWS Lambda for DevOps: Automate, Optimize, and Scale Like a Pro](https://medium.com/@ssatish.gonella/mastering-aws-lambda-for-devops-automate-optimize-and-scale-like-a-pro-55f00c91df44?source=rss-2065136b84d0------2)
 - [The AWS RDS Cost Optimization Chronicles: How We Slashed Our Database Bill by 65%](https://medium.com/@ssatish.gonella/the-aws-rds-cost-optimization-chronicles-how-we-slashed-our-database-bill-by-65-21d35fed8562?source=rss-2065136b84d0------2)
-- [Building a Highly Available WordPress Architecture on AWS: From VPC to Auto Scaling](https://medium.com/@ssatish.gonella/building-a-highly-available-wordpress-architecture-on-aws-from-vpc-to-auto-scaling-337b1a87b24f?source=rss-2065136b84d0------2)
 
 ## 🔥 Featured Projects
 Below are some standout projects showcasing my expertise in AWS/Azure, IaC, and container orchestration:
