@@ -31,9 +31,9 @@ I thrive on **leading end-to-end cloud transformation projects**, automating dep
 * **Master's in Computer Science** (Andhra University, India)
 
 ## 📚 Recent Articles
+- [Docker Bake vs Docker Build: Why I Switched for Good](https://medium.com/@ssatish.gonella/docker-bake-vs-docker-build-why-i-switched-for-good-5c1d8d00fea8?source=rss-2065136b84d0------2)
 - [Memory Systems: The Hidden Complexity in AI Agent Collaboration](https://medium.com/@ssatish.gonella/memory-systems-the-hidden-complexity-in-ai-agent-collaboration-f04d4a013d92?source=rss-2065136b84d0------2)
 - [The Orchestration Gap: Why Today’s AI Agents Struggle to Work Together](https://medium.com/@ssatish.gonella/the-orchestration-gap-why-todays-ai-agents-struggle-to-work-together-1a6cbc297a1e?source=rss-2065136b84d0------2)
-- [Building a Production-Ready AI Chat Application: From Docker to Kubernetes with MetalLB](https://medium.com/@ssatish.gonella/building-a-production-ready-ai-chat-application-from-docker-to-kubernetes-with-metallb-e850e8e0a748?source=rss-2065136b84d0------2)
 
 ## 🔥 Featured Projects
 Below are some standout projects showcasing my expertise in AWS/Azure, IaC, and container orchestration:
