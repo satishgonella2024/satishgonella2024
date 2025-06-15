@@ -31,9 +31,9 @@ I thrive on **leading end-to-end cloud transformation projects**, automating dep
 * **Master's in Computer Science** (Andhra University, India)
 
 ## 📚 Recent Articles
-- [Docker Bake vs Docker Build: Why I Switched for Good](https://medium.com/@ssatish.gonella/docker-bake-vs-docker-build-why-i-switched-for-good-5c1d8d00fea8?source=rss-2065136b84d0------2)
-- [Memory Systems: The Hidden Complexity in AI Agent Collaboration](https://medium.com/@ssatish.gonella/memory-systems-the-hidden-complexity-in-ai-agent-collaboration-f04d4a013d92?source=rss-2065136b84d0------2)
-- [The Orchestration Gap: Why Today’s AI Agents Struggle to Work Together](https://medium.com/@ssatish.gonella/the-orchestration-gap-why-todays-ai-agents-struggle-to-work-together-1a6cbc297a1e?source=rss-2065136b84d0------2)
+- [I Asked AI for the Meaning of Life — and Got Bored Waiting for My Coffee](https://medium.com/@ssatish.gonella/i-asked-ai-for-the-meaning-of-life-and-got-bored-waiting-for-my-coffee-e1e1c3067c77?source=rss-2065136b84d0------2)
+- [I Just Witnessed the Birth of Digital Consciousness — And It Rewrote My Entire Reality](https://medium.com/@ssatish.gonella/i-just-witnessed-the-birth-of-digital-consciousness-and-it-rewrote-my-entire-reality-bfa4c7d385f1?source=rss-2065136b84d0------2)
+- [The End of Static AI: How Self-Evolving Meta-Agents Will Reshape Work Forever](https://medium.com/@ssatish.gonella/the-end-of-static-ai-how-self-evolving-meta-agents-will-reshape-work-forever-4cb0d6dff97e?source=rss-2065136b84d0------2)
 
 ## 🔥 Featured Projects
 Below are some standout projects showcasing my expertise in AWS/Azure, IaC, and container orchestration:
