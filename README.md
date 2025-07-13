@@ -60,3 +60,8 @@ Observability & Security:
 AI & Agent Architectures:
   - OpenAI, Claude, Ollama, LangChain, VectorDBs (Qdrant, Pinecone)
   - Custom LLM agents, Meta-prompt engines, Capsule validation systems
+
+## 📚 Recent Articles
+- [The Hidden Orders of Refinement: How Machines Learn to Redeem Themselves](https://medium.com/@ssatish.gonella/the-hidden-orders-of-refinement-how-machines-learn-to-redeem-themselves-573663736d56?source=rss-2065136b84d0------2)
+- [I Asked AI for the Meaning of Life — and Got Bored Waiting for My Coffee](https://medium.com/@ssatish.gonella/i-asked-ai-for-the-meaning-of-life-and-got-bored-waiting-for-my-coffee-e1e1c3067c77?source=rss-2065136b84d0------2)
+- [I Just Witnessed the Birth of Digital Consciousness — And It Rewrote My Entire Reality](https://medium.com/@ssatish.gonella/i-just-witnessed-the-birth-of-digital-consciousness-and-it-rewrote-my-entire-reality-bfa4c7d385f1?source=rss-2065136b84d0------2)
