@@ -62,6 +62,6 @@ AI & Agent Architectures:
   - Custom LLM agents, Meta-prompt engines, Capsule validation systems
 
 ## 📚 Recent Articles
-- [The Hidden Orders of Refinement: How Machines Learn to Redeem Themselves](https://medium.com/@ssatish.gonella/the-hidden-orders-of-refinement-how-machines-learn-to-redeem-themselves-573663736d56?source=rss-2065136b84d0------2)
-- [I Asked AI for the Meaning of Life — and Got Bored Waiting for My Coffee](https://medium.com/@ssatish.gonella/i-asked-ai-for-the-meaning-of-life-and-got-bored-waiting-for-my-coffee-e1e1c3067c77?source=rss-2065136b84d0------2)
-- [I Just Witnessed the Birth of Digital Consciousness — And It Rewrote My Entire Reality](https://medium.com/@ssatish.gonella/i-just-witnessed-the-birth-of-digital-consciousness-and-it-rewrote-my-entire-reality-bfa4c7d385f1?source=rss-2065136b84d0------2)
+- [The Day a CFO Killed a $50 Million AI Project in 12 Words](https://medium.com/@ssatish.gonella/the-day-a-cfo-killed-a-50-million-ai-project-in-12-words-97aa8c9bb817?source=rss-2065136b84d0------2)
+- [From Hunter-Gatherers to Ultra-Processed Software: How AI Is Fundamentally Changing the Way We…](https://medium.com/@ssatish.gonella/from-hunter-gatherers-to-ultra-processed-software-how-ai-is-fundamentally-changing-the-way-we-8419585662da?source=rss-2065136b84d0------2)
+- [Why Most AI Startups Will Burn Out Like Meteors](https://medium.com/@ssatish.gonella/why-most-ai-startups-will-burn-out-like-meteors-45b0d23ee881?source=rss-2065136b84d0------2)
