@@ -23,6 +23,6 @@ Most of my recent work is in private repositories. The public ones here are refe
 [LinkedIn](https://www.linkedin.com/in/subrahmanyagonella) · [Medium](https://medium.com/@ssatish.gonella) · London, UK
 
 ## 📚 Recent Articles
-- [Why AI Fails the Moment It Leaves the Demo](https://medium.com/@ssatish.gonella/why-ai-fails-the-moment-it-leaves-the-demo-e68190f81d53)
-- [The Day a CFO Killed a $50 Million AI Project in 12 Words](https://medium.com/@ssatish.gonella/the-day-a-cfo-killed-a-50-million-ai-project-in-12-words-97aa8c9bb817)
-- [From Hunter-Gatherers to Ultra-Processed Software: How AI Is Fundamentally Changing the Way We…](https://medium.com/@ssatish.gonella/from-hunter-gatherers-to-ultra-processed-software-how-ai-is-fundamentally-changing-the-way-we-8419585662da)
+- [Why AI Fails the Moment It Leaves the Demo](https://medium.com/@ssatish.gonella/why-ai-fails-the-moment-it-leaves-the-demo-e68190f81d53?source=rss-2065136b84d0------2)
+- [The Day a CFO Killed a $50 Million AI Project in 12 Words](https://medium.com/@ssatish.gonella/the-day-a-cfo-killed-a-50-million-ai-project-in-12-words-97aa8c9bb817?source=rss-2065136b84d0------2)
+- [From Hunter-Gatherers to Ultra-Processed Software: How AI Is Fundamentally Changing the Way We…](https://medium.com/@ssatish.gonella/from-hunter-gatherers-to-ultra-processed-software-how-ai-is-fundamentally-changing-the-way-we-8419585662da?source=rss-2065136b84d0------2)
